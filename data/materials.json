@@ -1,0 +1,96 @@
+{
+  "cement": [
+    {"brand": "UltraTech", "grade": "OPC 53", "unit": "50kg bag", "price": 420, "region": "odisha"},
+    {"brand": "UltraTech", "grade": "PPC", "unit": "50kg bag", "price": 400, "region": "odisha"},
+    {"brand": "ACC", "grade": "OPC 53", "unit": "50kg bag", "price": 415, "region": "odisha"},
+    {"brand": "Birla White", "grade": "OPC 53", "unit": "50kg bag", "price": 425, "region": "odisha"},
+    {"brand": "JK Cement", "grade": "OPC 53", "unit": "50kg bag", "price": 410, "region": "odisha"}
+  ],
+  "steel": [
+    {"brand": "Tata Tiscon", "grade": "Fe500D", "unit": "per kg", "price": 82, "region": "odisha"},
+    {"brand": "Tata Tiscon", "grade": "Fe550D", "unit": "per kg", "price": 88, "region": "odisha"},
+    {"brand": "SAIL", "grade": "Fe500", "unit": "per kg", "price": 78, "region": "odisha"},
+    {"brand": "JSW Steel", "grade": "Fe500D", "unit": "per kg", "price": 80, "region": "odisha"}
+  ],
+  "bricks": [
+    {"type": "Red Clay Brick", "grade": "First Class", "unit": "per piece", "price": 12, "region": "odisha"},
+    {"type": "Fly Ash Brick", "grade": "First Class", "unit": "per piece", "price": 8, "region": "odisha"},
+    {"type": "Concrete Block", "grade": "Standard", "unit": "per piece", "price": 25, "region": "odisha"},
+    {"type": "Red Clay Brick", "grade": "Second Class", "unit": "per piece", "price": 9, "region": "odisha"}
+  ],
+  "sand": [
+    {"type": "River Sand", "grade": "Zone II", "unit": "per cft", "price": 65, "region": "odisha"},
+    {"type": "M-Sand", "grade": "Zone II", "unit": "per cft", "price": 50, "region": "odisha"},
+    {"type": "Crusher Sand", "grade": "Standard", "unit": "per cft", "price": 40, "region": "odisha"},
+    {"type": "Concrete Sand", "grade": "Fine", "unit": "per cft", "price": 55, "region": "odisha"}
+  ],
+  "aggregate": [
+    {"size": "20mm", "unit": "per cft", "price": 90, "region": "odisha"},
+    {"size": "10mm", "unit": "per cft", "price": 95, "region": "odisha"},
+    {"size": "4mm (Fine)", "unit": "per cft", "price": 85, "region": "odisha"},
+    {"size": "40mm (Coarse)", "unit": "per cft", "price": 88, "region": "odisha"}
+  ],
+  "waterproofing": [
+    {"brand": "Dr. Fixit", "product": "Surestop", "unit": "per kg", "price": 180, "region": "odisha"},
+    {"brand": "Nippo", "product": "Neptune", "unit": "per liter", "price": 160, "region": "odisha"},
+    {"brand": "Sika", "product": "Waterstop", "unit": "per kg", "price": 200, "region": "odisha"},
+    {"brand": "Nippon Paint", "product": "Waterblock", "unit": "per liter", "price": 170, "region": "odisha"}
+  ],
+  "paint": [
+    {"brand": "Asian Paints", "product": "Royale Play", "type": "premium", "unit": "per liter", "price": 450, "region": "odisha"},
+    {"brand": "Asian Paints", "product": "Tractor Emulsion", "type": "economy", "unit": "per liter", "price": 220, "region": "odisha"},
+    {"brand": "Berger", "product": "Silk Touch", "type": "standard", "unit": "per liter", "price": 320, "region": "odisha"},
+    {"brand": "Nippon Paint", "product": "WeatherShield", "type": "standard", "unit": "per liter", "price": 280, "region": "odisha"},
+    {"brand": "Asian Paints", "product": "Berita", "type": "economy", "unit": "per liter", "price": 180, "region": "odisha"}
+  ],
+  "flooring": [
+    {"type": "Vitrified Tiles", "grade": "economy", "unit": "per sq ft", "price": 35, "region": "odisha"},
+    {"type": "Porcelain Tiles", "grade": "standard", "unit": "per sq ft", "price": 65, "region": "odisha"},
+    {"type": "Marble", "grade": "standard", "unit": "per sq ft", "price": 120, "region": "odisha"},
+    {"type": "Granite", "grade": "standard", "unit": "per sq ft", "price": 90, "region": "odisha"},
+    {"type": "Wooden Flooring", "grade": "premium", "unit": "per sq ft", "price": 180, "region": "odisha"},
+    {"type": "Kotah Stone", "grade": "standard", "unit": "per sq ft", "price": 75, "region": "odisha"},
+    {"type": "Terrazzo", "grade": "standard", "unit": "per sq ft", "price": 85, "region": "odisha"}
+  ],
+  "electrical": [
+    {"brand": "Finolex", "product": "Cu Wire 1mm", "unit": "per meter", "price": 18, "region": "odisha"},
+    {"brand": "Finolex", "product": "Cu Wire 2.5mm", "unit": "per meter", "price": 45, "region": "odisha"},
+    {"brand": "Finolex", "product": "Cu Wire 4mm", "unit": "per meter", "price": 75, "region": "odisha"},
+    {"brand": "Havells", "product": "Switch Board", "unit": "per piece", "price": 180, "region": "odisha"},
+    {"brand": "Anchor by Schneider", "product": "MCB", "unit": "per piece", "price": 250, "region": "odisha"},
+    {"brand": "Lovely", "product": "Conduit Pipe", "unit": "per piece", "price": 35, "region": "odisha"}
+  ],
+  "plumbing": [
+    {"brand": "Astral", "product": "CPVC Pipe 20mm", "unit": "per piece", "price": 45, "region": "odisha"},
+    {"brand": "Astral", "product": "CPVC Pipe 25mm", "unit": "per piece", "price": 75, "region": "odisha"},
+    {"brand": "Astral", "product": "CPVC Pipe 40mm", "unit": "per piece", "price": 150, "region": "odisha"},
+    {"brand": "Jaquar", "product": "Wash Basin", "unit": "per piece", "price": 2800, "region": "odisha"},
+    {"brand": "Jaquar", "product": "Toilet Seat", "unit": "per piece", "price": 4500, "region": "odisha"},
+    {"brand": "Cera", "product": "Shower Mixer", "unit": "per piece", "price": 3500, "region": "odisha"}
+  ],
+  "windows_doors": [
+    {"type": "Wooden Door", "size": "800x2100mm", "material": "Teak", "unit": "per piece", "price": 8000, "region": "odisha"},
+    {"type": "PVC Window", "size": "1200x1200mm", "unit": "per sq ft", "price": 180, "region": "odisha"},
+    {"type": "Aluminum Window", "size": "1200x1200mm", "unit": "per sq ft", "price": 220, "region": "odisha"},
+    {"type": "Wooden Door", "size": "800x2100mm", "material": "Sal", "unit": "per piece", "price": 5000, "region": "odisha"}
+  ],
+  "roofing": [
+    {"type": "CI Sheets", "unit": "per sq ft", "price": 120, "region": "odisha"},
+    {"type": "WPC Decking", "unit": "per sq ft", "price": 180, "region": "odisha"},
+    {"type": "Waterproofing Membrane", "unit": "per sq m", "price": 85, "region": "odisha"},
+    {"type": "Colorbond Sheet", "unit": "per sq ft", "price": 140, "region": "odisha"}
+  ],
+  "finishing": [
+    {"type": "Putty", "brand": "Asian Paints", "unit": "per kg", "price": 35, "region": "odisha"},
+    {"type": "Primer", "brand": "Asian Paints", "unit": "per liter", "price": 120, "region": "odisha"},
+    {"type": "PU Paint", "unit": "per liter", "price": 600, "region": "odisha"},
+    {"type": "Wallpaper", "unit": "per roll", "price": 800, "region": "odisha"},
+    {"type": "Tile Grout", "unit": "per kg", "price": 45, "region": "odisha"}
+  ],
+  "iron_steel_fitting": [
+    {"type": "TMT Bars Fe500", "unit": "per kg", "price": 80, "region": "odisha"},
+    {"type": "MS Pipe", "unit": "per kg", "price": 85, "region": "odisha"},
+    {"type": "Wire Mesh", "unit": "per sq m", "price": 120, "region": "odisha"},
+    {"type": "Binding Wire", "unit": "per kg", "price": 90, "region": "odisha"}
+  ]
+}
