@@ -11,8 +11,9 @@ BuildFlow is a dual-arm platform:
 ## Tech Stack
 
 - **Frontend:** SvelteKit (PWA)
-- **Backend:** Python FastAPI
+- **Backend:** Rust + Axum (async, type-safe)
 - **Database:** PostgreSQL (via Supabase)
+- **ORM:** SQLx (async, compile-time checked)
 - **Auth:** Supabase Auth (Email + OTP)
 - **Storage:** Supabase Storage
 - **Payments:** Pluggable (Razorpay default)
@@ -26,7 +27,7 @@ buildflow/
 │   ├── web/                 # Client-facing PWA
 │   └── admin/               # Admin dashboard
 ├── packages/
-│   ├── api/                 # FastAPI backend
+│   ├── api/                 # Rust + Axum backend
 │   ├── shared/              # Shared types/utils
 │   └── payment/             # Pluggable payment adapters
 ├── data/
@@ -40,16 +41,24 @@ buildflow/
 ## Getting Started
 
 ### Prerequisites
+- Rust 1.75+ (rustup)
 - Node.js 18+
-- Python 3.11+
 - Supabase account
+- PostgreSQL (via Supabase)
 
-### Setup
-1. Clone the repo
-2. Set up Supabase project
-3. Install dependencies: `npm install` (or per-app)
-4. Run migrations: `supabase db reset`
-5. Start dev servers
+### Backend Setup (Rust)
+```bash
+cd packages/api
+cargo build
+cargo run
+```
+
+### Frontend Setup
+```bash
+cd apps/web
+npm install
+npm run dev
+```
 
 ## MVP Timeline (8 Weeks)
 
@@ -63,6 +72,10 @@ buildflow/
 | 6 | Payment + PWA | Razorpay, OTP, install prompt |
 | 7 | Analytics + Polish | Event tracking, performance |
 | 8 | Beta Deploy | Production deploy, docs |
+
+## API Documentation
+
+OpenAPI docs: `/api/docs` (running locally)
 
 ## License
 
